@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4A0B0F81CF4C4670027DC7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B0F71CF4C4670027DC7F /* main.m */; };
+		F4A0B0FB1CF4C4670027DC7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B0FA1CF4C4670027DC7F /* AppDelegate.m */; };
+		F4A0B0FE1CF4C4670027DC7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B0FD1CF4C4670027DC7F /* ViewController.m */; };
+		F4A0B1011CF4C4670027DC7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B0FF1CF4C4670027DC7F /* Main.storyboard */; };
+		F4A0B1031CF4C4670027DC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B1021CF4C4670027DC7F /* Assets.xcassets */; };
+		F4A0B1061CF4C4670027DC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B1041CF4C4670027DC7F /* LaunchScreen.storyboard */; };
+		F4A0B1111CF4C4670027DC7F /* Battery_HubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B1101CF4C4670027DC7F /* Battery_HubUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4A0B10D1CF4C4670027DC7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4A0B0EB1CF4C4670027DC7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4A0B0F21CF4C4670027DC7F;
+			remoteInfo = "Battery Hub";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4A0B0F31CF4C4670027DC7F /* Battery Hub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Battery Hub.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A0B0F71CF4C4670027DC7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4A0B0F91CF4C4670027DC7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4A0B0FA1CF4C4670027DC7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4A0B0FC1CF4C4670027DC7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4A0B0FD1CF4C4670027DC7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4A0B1001CF4C4670027DC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4A0B1021CF4C4670027DC7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4A0B1051CF4C4670027DC7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4A0B1071CF4C4670027DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A0B10C1CF4C4670027DC7F /* Battery HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A0B1101CF4C4670027DC7F /* Battery_HubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battery_HubUITests.m; sourceTree = "<group>"; };
+		F4A0B1121CF4C4670027DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4A0B0F01CF4C4670027DC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A0B1091CF4C4670027DC7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4A0B0EA1CF4C4670027DC7F = {
+			isa = PBXGroup;
+			children = (
+				F4A0B0F51CF4C4670027DC7F /* Battery Hub */,
+				F4A0B10F1CF4C4670027DC7F /* Battery HubUITests */,
+				F4A0B0F41CF4C4670027DC7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4A0B0F41CF4C4670027DC7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0B0F31CF4C4670027DC7F /* Battery Hub.app */,
+				F4A0B10C1CF4C4670027DC7F /* Battery HubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4A0B0F51CF4C4670027DC7F /* Battery Hub */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0B0F91CF4C4670027DC7F /* AppDelegate.h */,
+				F4A0B0FA1CF4C4670027DC7F /* AppDelegate.m */,
+				F4A0B0FC1CF4C4670027DC7F /* ViewController.h */,
+				F4A0B0FD1CF4C4670027DC7F /* ViewController.m */,
+				F4A0B0FF1CF4C4670027DC7F /* Main.storyboard */,
+				F4A0B1021CF4C4670027DC7F /* Assets.xcassets */,
+				F4A0B1041CF4C4670027DC7F /* LaunchScreen.storyboard */,
+				F4A0B1071CF4C4670027DC7F /* Info.plist */,
+				F4A0B0F61CF4C4670027DC7F /* Supporting Files */,
+			);
+			path = "Battery Hub";
+			sourceTree = "<group>";
+		};
+		F4A0B0F61CF4C4670027DC7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0B0F71CF4C4670027DC7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4A0B10F1CF4C4670027DC7F /* Battery HubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4A0B1101CF4C4670027DC7F /* Battery_HubUITests.m */,
+				F4A0B1121CF4C4670027DC7F /* Info.plist */,
+			);
+			path = "Battery HubUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4A0B0F21CF4C4670027DC7F /* Battery Hub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A0B1151CF4C4670027DC7F /* Build configuration list for PBXNativeTarget "Battery Hub" */;
+			buildPhases = (
+				F4A0B0EF1CF4C4670027DC7F /* Sources */,
+				F4A0B0F01CF4C4670027DC7F /* Frameworks */,
+				F4A0B0F11CF4C4670027DC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Battery Hub";
+			productName = "Battery Hub";
+			productReference = F4A0B0F31CF4C4670027DC7F /* Battery Hub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4A0B10B1CF4C4670027DC7F /* Battery HubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A0B1181CF4C4670027DC7F /* Build configuration list for PBXNativeTarget "Battery HubUITests" */;
+			buildPhases = (
+				F4A0B1081CF4C4670027DC7F /* Sources */,
+				F4A0B1091CF4C4670027DC7F /* Frameworks */,
+				F4A0B10A1CF4C4670027DC7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4A0B10E1CF4C4670027DC7F /* PBXTargetDependency */,
+			);
+			name = "Battery HubUITests";
+			productName = "Battery HubUITests";
+			productReference = F4A0B10C1CF4C4670027DC7F /* Battery HubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4A0B0EB1CF4C4670027DC7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Simon Edwardes";
+				TargetAttributes = {
+					F4A0B0F21CF4C4670027DC7F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4A0B10B1CF4C4670027DC7F = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4A0B0F21CF4C4670027DC7F;
+					};
+				};
+			};
+			buildConfigurationList = F4A0B0EE1CF4C4670027DC7F /* Build configuration list for PBXProject "Battery Hub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4A0B0EA1CF4C4670027DC7F;
+			productRefGroup = F4A0B0F41CF4C4670027DC7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4A0B0F21CF4C4670027DC7F /* Battery Hub */,
+				F4A0B10B1CF4C4670027DC7F /* Battery HubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4A0B0F11CF4C4670027DC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A0B1061CF4C4670027DC7F /* LaunchScreen.storyboard in Resources */,
+				F4A0B1031CF4C4670027DC7F /* Assets.xcassets in Resources */,
+				F4A0B1011CF4C4670027DC7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A0B10A1CF4C4670027DC7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4A0B0EF1CF4C4670027DC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A0B0FE1CF4C4670027DC7F /* ViewController.m in Sources */,
+				F4A0B0FB1CF4C4670027DC7F /* AppDelegate.m in Sources */,
+				F4A0B0F81CF4C4670027DC7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A0B1081CF4C4670027DC7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A0B1111CF4C4670027DC7F /* Battery_HubUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4A0B10E1CF4C4670027DC7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4A0B0F21CF4C4670027DC7F /* Battery Hub */;
+			targetProxy = F4A0B10D1CF4C4670027DC7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4A0B0FF1CF4C4670027DC7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A0B1001CF4C4670027DC7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4A0B1041CF4C4670027DC7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4A0B1051CF4C4670027DC7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4A0B1131CF4C4670027DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4A0B1141CF4C4670027DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4A0B1161CF4C4670027DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Battery Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A0B1171CF4C4670027DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Battery Hub/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-Hub";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4A0B1191CF4C4670027DC7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Battery HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Battery Hub";
+			};
+			name = Debug;
+		};
+		F4A0B11A1CF4C4670027DC7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Battery HubUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-HubUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Battery Hub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4A0B0EE1CF4C4670027DC7F /* Build configuration list for PBXProject "Battery Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A0B1131CF4C4670027DC7F /* Debug */,
+				F4A0B1141CF4C4670027DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A0B1151CF4C4670027DC7F /* Build configuration list for PBXNativeTarget "Battery Hub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A0B1161CF4C4670027DC7F /* Debug */,
+				F4A0B1171CF4C4670027DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4A0B1181CF4C4670027DC7F /* Build configuration list for PBXNativeTarget "Battery HubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A0B1191CF4C4670027DC7F /* Debug */,
+				F4A0B11A1CF4C4670027DC7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4A0B0EB1CF4C4670027DC7F /* Project object */;
+}
