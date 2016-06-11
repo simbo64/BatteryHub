@@ -16,6 +16,8 @@
 }
 
 -(void)startAdvertising{
+    NSLog(@"Some New Code In Debug Branch");
+    
     NSLog(@"Start Advertising");
    // self.peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil];
     
