@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PeripheralController.h"
+#import "CentralController.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController 
 
 @end
 

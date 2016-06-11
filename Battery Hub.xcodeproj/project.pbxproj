@@ -14,6 +14,8 @@
 		F4A0B1031CF4C4670027DC7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B1021CF4C4670027DC7F /* Assets.xcassets */; };
 		F4A0B1061CF4C4670027DC7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A0B1041CF4C4670027DC7F /* LaunchScreen.storyboard */; };
 		F4A0B1111CF4C4670027DC7F /* Battery_HubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A0B1101CF4C4670027DC7F /* Battery_HubUITests.m */; };
+		F4CB592E1CF5AC2C0009E0AC /* PeripheralController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB592D1CF5AC2C0009E0AC /* PeripheralController.m */; };
+		F4CB59311CF5AC410009E0AC /* CentralController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB59301CF5AC410009E0AC /* CentralController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		F4A0B10C1CF4C4670027DC7F /* Battery HubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Battery HubUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A0B1101CF4C4670027DC7F /* Battery_HubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Battery_HubUITests.m; sourceTree = "<group>"; };
 		F4A0B1121CF4C4670027DC7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CB592C1CF5AC2C0009E0AC /* PeripheralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeripheralController.h; sourceTree = "<group>"; };
+		F4CB592D1CF5AC2C0009E0AC /* PeripheralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeripheralController.m; sourceTree = "<group>"; };
+		F4CB592F1CF5AC410009E0AC /* CentralController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CentralController.h; sourceTree = "<group>"; };
+		F4CB59301CF5AC410009E0AC /* CentralController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CentralController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				F4A0B0FA1CF4C4670027DC7F /* AppDelegate.m */,
 				F4A0B0FC1CF4C4670027DC7F /* ViewController.h */,
 				F4A0B0FD1CF4C4670027DC7F /* ViewController.m */,
+				F4CB592C1CF5AC2C0009E0AC /* PeripheralController.h */,
+				F4CB592D1CF5AC2C0009E0AC /* PeripheralController.m */,
+				F4CB592F1CF5AC410009E0AC /* CentralController.h */,
+				F4CB59301CF5AC410009E0AC /* CentralController.m */,
 				F4A0B0FF1CF4C4670027DC7F /* Main.storyboard */,
 				F4A0B1021CF4C4670027DC7F /* Assets.xcassets */,
 				F4A0B1041CF4C4670027DC7F /* LaunchScreen.storyboard */,
@@ -160,6 +170,12 @@
 				TargetAttributes = {
 					F4A0B0F21CF4C4670027DC7F = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = KSDBNL5L3K;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					F4A0B10B1CF4C4670027DC7F = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -213,6 +229,8 @@
 			files = (
 				F4A0B0FE1CF4C4670027DC7F /* ViewController.m in Sources */,
 				F4A0B0FB1CF4C4670027DC7F /* AppDelegate.m in Sources */,
+				F4CB59311CF5AC410009E0AC /* CentralController.m in Sources */,
+				F4CB592E1CF5AC2C0009E0AC /* PeripheralController.m in Sources */,
 				F4A0B0F81CF4C4670027DC7F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,10 +359,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Battery Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -352,10 +374,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Battery Hub/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "sim.Battery-Hub";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -400,6 +426,7 @@
 				F4A0B1171CF4C4670027DC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4A0B1181CF4C4670027DC7F /* Build configuration list for PBXNativeTarget "Battery HubUITests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +435,7 @@
 				F4A0B11A1CF4C4670027DC7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
