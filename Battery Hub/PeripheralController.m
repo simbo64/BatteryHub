@@ -16,7 +16,19 @@
 }
 
 -(void)startAdvertising{
+    
+    
+    
+    
     NSLog(@"Some New Code In Debug Branch");
+    
+    
+    
+    
+    NSLog(@"Some Extra New Changes For Commit");
+    
+    
+    
     
     NSLog(@"Start Advertising");
    // self.peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:nil];
